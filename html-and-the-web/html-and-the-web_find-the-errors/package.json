@@ -1,7 +1,7 @@
 {
-  "name": "html-and-the-web_format-salad",
+  "name": "html-and-the-web_find-the-errors",
   "version": "0.0.0-unreleased",
-  "description": "HTML format salad",
+  "description": "HTML and the web: Find the errors",
   "main": "n.a.",
   "nf": {
     "template": "empty"
