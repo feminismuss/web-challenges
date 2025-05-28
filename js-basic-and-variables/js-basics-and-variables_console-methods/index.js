@@ -1,8 +1,10 @@
 console.clear();
 const coding = "Happy coding!";
-const hacking = "Happy hacking";
+const hacking = "Happy hacking!";
+const error = "This is an error!";
 console.log(coding);
 console.log(hacking);
+console.error(error);
 
 // The exercise starts here!
 
