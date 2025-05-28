@@ -10,6 +10,11 @@ console.clear();
 */
 
 // --v-- write your code here --v--
+const postTitle = "A title for the post";
+const postContent = "text content for the post";
+let postLikes = 1;
+const postCreator = "the user who created the post";
+let isReported = false;
 
 // --^-- write your code here --^--
 
@@ -18,5 +23,11 @@ console.clear();
 */
 
 // --v-- write your code here --v--
-
+console.log(postTitle);
+console.log(postContent);
+console.log(postLikes);
+console.log(postCreator);
+console.log(isReported);
+postLikes++;
+console.log("Updated Likes", postLikes);
 // --^-- write your code here --^--
