@@ -12,7 +12,15 @@ if (receivedPassword === SUPER_SECRET_PASSWORD) {
 }
 
 // Part 2: Even / Odd
-const number = 6;
+// - use an if/else statement to log 'even number' if the variable `number` is even, and 'odd number' otherwise
+// - use different values for `number` to check if all cases work.
+
+const number = 7;
+if (number / 2 == 0) {
+  consol.log("Number is even");
+} else {
+  console.log("Number is odd");
+}
 
 // Part 3: Hotdogs
 const numberOfHotdogs = 42;
