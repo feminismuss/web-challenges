@@ -24,7 +24,6 @@ To work locally, please follow these steps:
 ### 1. Install dependencies:
 
 Open your terminal and navigate to the project directory. Run the following command to install the necessary dependencies:
-
 `npm install` or `npm i`
 
 This command reads the `package.json` file and installs the required packages listed under `dependencies`.
