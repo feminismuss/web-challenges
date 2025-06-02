@@ -39,21 +39,29 @@ console.log(nestedNumber);
 // Use the `.push()` array method to add "rat" to the end of `petsWithPush`.
 
 const petsWithPush = ["dog", "cat", "rabbit"];
+petsWithPush.push("rat");
+console.log(petsWithPush);
 
 // EXERCISE 7
 // Use the `.pop()` method to remove the last item from `fruitsWithPop`.
 
 const fruitsWithPop = ["apple", "banana", "mango"];
+fruitsWithPop.pop();
+console.log(fruitsWithPop);
 
 // EXERCISE 8
 // Use the `.unshift()` array method to add "hamster" to the beginning of `unshiftedPets`.
 
 const unshiftedPets = ["dog", "cat", "rabbit"];
+unshiftedPets.unshift("hamster");
+console.log(unshiftedPets);
 
 // EXERCISE 9
 // Use the `.shift()` method to remove the first item from `shiftedFruits`.
 
 const shiftedFruits = ["apple", "banana", "mango"];
+shiftedFruits.shift();
+console.log(shiftedFruits);
 
 export {
   exampleArray,
