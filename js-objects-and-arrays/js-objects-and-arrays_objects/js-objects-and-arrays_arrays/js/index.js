@@ -9,7 +9,7 @@ console.log(exampleArray);
 // EXERCISE 2
 // Nest an array inside `nestedArray`. After completing this, `nestedArray` should contain an array as one of its elements.
 
-const nestedArray = ["Maus", 7, "Haus"[("Eingang", 5, "Zimmer")], "Garten"];
+const nestedArray = ["Maus", 7, "Haus", ["Eingang", 5, "Zimmer"], "Garten"];
 console.log(nestedArray);
 
 // EXERCISE 3
@@ -24,13 +24,16 @@ console.log(firstNumber);
 // Update the first fruit in `fruits` to be "mango" instead of "apple".
 
 const fruits = ["apple", "banana", "grapefruit"];
+fruits[0] = "mango";
+console.log(fruits);
 
 // EXERCISE 5
 // Set the value of `nestedNumber` to the fourth number in the `nestedNumbers` array using bracket notation.
 
 const nestedNumbers = [10, [20, 30, [40, 50]]];
 
-const nestedNumber = "change me";
+const nestedNumber = nestedNumbers[1][2][0];
+console.log(nestedNumber);
 
 // EXERCISE 6
 // Use the `.push()` array method to add "rat" to the end of `petsWithPush`.
