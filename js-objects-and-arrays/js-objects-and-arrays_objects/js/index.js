@@ -38,10 +38,10 @@ const petPluto = {
   name: "Pluto",
   species: "dog",
 };
-const pet.newProperty = {
+
 petPluto.age = 5;
-petPluto.breed = "husky",
-}
+petPluto.breed = "husky";
+console.log(petPluto.breed);
 export {
   personWithNameAgeEmail,
   nameOfAlex,
