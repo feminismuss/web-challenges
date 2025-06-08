@@ -30,6 +30,13 @@ aside {
 ul {
   width: max-content;
 }
+ul .user .bio {
+  display: none;
+}
+ul .user .location {
+  text-align: left;
+  color: slategray;
+}
 
 li {
   margin: 8px 0;
@@ -46,15 +53,28 @@ li {
   background-color: white;
 }
 
+aside .user {
+  border-radius: 4px;
+  padding: 12px;
+  max-width: 250px;
+}
+
 .name {
   font-size: 18px;
   text-transform: uppercase;
   margin: 0;
 }
+aside .name {
+  font-size: 16px;
+}
 
 .bio {
   font-size: 14px;
   color: darkslategray;
+}
+aside .bio {
+  font-size: 12px;
+  margin: 6px 0;
 }
 
 .location {
@@ -62,6 +82,9 @@ li {
   font-weight: 600;
   text-align: end;
   margin: 0;
+}
+aside .location {
+  font-size: 10px;
 }
 
 /*
