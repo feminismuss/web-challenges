@@ -1,0 +1,69 @@
+/* Please scroll down to the start of your exercise! */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+}
+
+section {
+  background-color: lemonchiffon;
+  display: grid;
+  place-items: center;
+}
+
+.skyblue {
+  background-color: skyblue;
+}
+
+button {
+  background-color: white;
+  padding: 8px 25px;
+}
+
+/* Your exercise starts here. */
+
+/* Add your CSS styles below this line. Feel free to replace the comments with your code. 
+Make sure not to put your code into the comments, because then nothing will happen. */
+
+.button1 {
+  /* Style me! Change my border, set a border radius or try out other styles. :) */
+  border: 1px solid;
+  border-radius: 10px;
+  border-top-color: blueviolet;
+  border-spacing: 10%;
+  margin: 1px;
+  padding: 10%;
+}
+
+.button2 {
+  /* Style me! Change my color or background-color, or both! You can experiment with different color formats here, like HEX, RGB, etc. */
+  color: chocolate;
+  background-color: yellowgreen;
+  border-radius: 50px;
+  border: none;
+}
+/* .skyblue {
+  background-image: url(https://unsplash.com/de/fotos/blaue-grune-und-braune-runde-medikamentenpille-vMiWyz72UsQ);
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+
+.button3 {
+  /* Style me! You can test out changing the font, font size, ...*/
+  font-weight: 100;
+  font-style: oblique;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.button4 {
+  /* Style me! Can you add a shadow to this button? Try playing around with shadow properties - you can even change the shadow color, size, and more. */
+  text-shadow: 1%;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Feel free to play around with other properties, too. */
