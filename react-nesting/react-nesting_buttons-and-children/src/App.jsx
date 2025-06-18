@@ -4,7 +4,7 @@ import "./styles.css";
 export default function App() {
   return (
     <main>
-      <Button>Butter</Button> 
+      <Button>Butter</Button>
       <Button>Milch</Button>
       <Button>Zucker</Button>
       <Button>Eier</Button>
@@ -12,10 +12,10 @@ export default function App() {
   );
 }
 
-function Button({children}) {
+function Button({ children }) {
   return (
     <button className="button" type="button">
-      Click me!
+      {children}
     </button>
   );
 }
