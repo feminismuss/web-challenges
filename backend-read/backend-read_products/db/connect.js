@@ -43,5 +43,5 @@ async function dbConnect() {
 
   return cached.conn;
 }
-
+// console.log("Verwende MongoDB URI:", MONGODB_URI);
 export default dbConnect;
